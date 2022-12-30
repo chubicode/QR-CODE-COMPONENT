@@ -1,0 +1,57 @@
+body{
+  background-color:  hsl(212, 45%, 89%);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main-container{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
+ align-items: center;
+ text-align: center;
+ background-color: hsl(0, 0%, 100%) ;
+ width: 21.5%;
+ height: 75vh;
+ margin: 90px auto 20px auto;
+ border-radius: 10px;
+ 
+} 
+
+
+.barcode-textsection{
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px; 
+  font-family: 'Outfit', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2{
+font-weight:  bold;
+text-align: center;
+
+}
+h4{
+color: hsl(212, 68%, 75%);
+text-align: center;
+}
+
+#barcode-img{
+border-radius: 10px ;
+align-items: center;
+width: 90%;
+
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
